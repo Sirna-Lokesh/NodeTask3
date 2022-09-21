@@ -1,0 +1,7 @@
+Service should have the following CRUD operations for User:
+−get user by id;
+−create and update user;
+−get auto-suggest list from limitusers, sorted by login property and filtered by loginSubstringin the login property:
+getAutoSuggestUsers(loginSubstring, limit)−remove user (soft delete–user gets marked with isDeletedflag, but not removed from the collection).
+•Store user’scollection in the service memory (while the service is running).To test the service CRUDmethods,
+you can use Postman (https://www.getpostman.com/).
